@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -16,13 +16,16 @@
       
       <form class="form-submit">
         <label for="query">Search Youtube videos from here!</label>
-        <input type="text" class="queryText">
-        <button type="submit">Search</button>
+        <input type="text" class="queryText" aria-label="form-submit">
+        <button type="submit" aria-label="search">Search</button>
       </form>
       
       
       <div class="searchResults">
         <h2>Results</h2>
+          <div class="js-results" aria-live="assertive" hidden>
+
+          </div>
       </div>
       
     </main>

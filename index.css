@@ -25,3 +25,10 @@ header, .form-submit{
 .form-submit{
   padding-top: 70px;
 }
+.numResults{
+  text-decoration: underline;
+  padding-left: 20px;
+}
+.searchResults h2{
+  padding-left: 20px;
+}
