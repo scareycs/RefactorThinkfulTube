@@ -30,6 +30,7 @@ function displayYouTubeSearchData(data) {
   //console.log(data.items.map((snippet.title, index)=>renderResult(item)));
   const results = data.items.map((item, index)=>renderResult(item));
   console.log(data.items.length);
+
   numResults = data.items.length;
   $('.js-results')
   .prop('hidden', false)
